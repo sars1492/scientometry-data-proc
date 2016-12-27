@@ -81,16 +81,16 @@ according to the value of the 'date' option defined in CONFIG_FILE.
 
         $ ./scientometry-data-proc.py
 
- 2. Process sections `all` and `celec` that are defined in default config file:
+2. Process sections `all` and `celec` that are defined in default config file:
 
         $ ./scientometry-data-proc.py all celec
 
- 4. You can also load metadata from the alternative configuration file.
+3. You can also load metadata from the alternative configuration file.
     Following command processes all sections defined in the `alt-config.yaml`:
 
         $ ./scientometry-data-proc.py -c alt-config.yaml
 
- 5. Making `scientometry-data-proc.py` globally accessible:
+4. Making `scientometry-data-proc.py` globally accessible:
 
         $ cp scientometry-data-proc.py ~/bin
         $ export PATH=$PATH:~/bin
