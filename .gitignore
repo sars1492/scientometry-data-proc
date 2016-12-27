@@ -1,0 +1,8 @@
+# Compiled Python
+*.py[co]
+
+# Output files
+out/
+
+# Vim backup files
+*~
