@@ -116,7 +116,7 @@ UTF-8 characters.
 
 #### List of valid configuration keys
 
-Configuration key | Description
+Config. key | Description
 ------------ | -----------
 `output-dir` | Output directory (will be created if it does not exist)
 `class` | Output data class (`PublicationsData`, `CitationsData`,`JournalsData`, `ResultsData`, see next section for more details)
@@ -137,7 +137,7 @@ registers).  The resulting file can be then plotted by *scientometry-plot-gen*.
 Output filename is determined by the section name (`{section name}.csv`).
 Following table describes valid config keys for this class:
 
-Configuration key | Description
+Config. key | Description
 ------------ | -----------
 `source` | Dictionary of filenames--the keys define dataset names used as data column names in the output file
 `years` | Range of years defining list of dataset groups that translates into `Group` column of the output file
@@ -152,7 +152,7 @@ Calculates total citation count per year of publication for multiple datasets
 (`{section_name}.csv`).  Following table describes valid config keys for this
 class:
 
-Configuration key | Description
+Config. key | Description
 ------------ | -----------
 `source` | Dictionary of filenames--the keys define dataset names used as data column names in the output file
 `years` | Range of years defining list of dataset groups that translates into `Group` column of the output file
@@ -169,7 +169,7 @@ paper counts translate into `Papers` column.  Output filename is determined by
 the section name (`{section_name}.csv`).  Following table describes valid config
 keys for this class:
 
-Configuration key | Description
+Config. key | Description
 ------------ | -----------
 `source` | Filename of the input file
 `journal-catalog` | Filename of the journal catalog file (used by `JournalsData` class only)
@@ -192,7 +192,7 @@ combination of the section name and the name of the extracted column
 to lowercase and spaces are replaced with dashes).  Following table describes
 valid config keys for this class:
 
-Configuration key | Description
+Config. key | Description
 ------------ | -----------
 `source` | Filename of the input results data file
 `groups` | List of dataset groups names translates into `Group` column of the output files (also defines the row order)
