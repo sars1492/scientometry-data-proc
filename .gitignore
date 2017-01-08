@@ -2,7 +2,7 @@
 *.py[co]
 
 # Output files
-out/
+/out/
 
-# Vim backup files
+# Vim/Emacs backup files
 *~
