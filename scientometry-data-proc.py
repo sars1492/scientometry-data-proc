@@ -50,7 +50,7 @@ import glob
 import os
 from operator import itemgetter
 
-__version__ = "0.2"
+__version__ = "0.4"
 
 
 class SectionConfig(object):
